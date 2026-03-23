@@ -4,21 +4,21 @@
 # Fill in your credentials before deploying.
 
 # Telegram Bot Token (get from @BotFather)
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+TELEGRAM_BOT_TOKEN = "8658725143:AAFQ6IgjhrAhRYgOLPnoOoLasolkJnGvQOo"
 
 # Telegram Chat ID(s) where reports should be sent
 # Can be a group chat ID (negative number) or user ID
-TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
+TELEGRAM_CHAT_ID = "-5108359377"
 
 # Google Cloud BigQuery credentials
 # Option 1: Path to service account JSON key file
-GCP_CREDENTIALS_PATH = "path/to/your/service-account-key.json"
+GCP_CREDENTIALS_PATH = "/Users/jeselcura/Downloads/ai-bigquery-service-account.json"
 
 # Option 2: If running on GCP with default credentials, set this to True
 USE_DEFAULT_CREDENTIALS = False
 
 # BigQuery dataset
-BQ_PROJECT = "your-gcp-project-id"
+BQ_PROJECT = "bigquery-470313"
 BQ_DATASET = "your-dataset-name"
 
 # ============================================================
@@ -27,7 +27,7 @@ BQ_DATASET = "your-dataset-name"
 
 # Timezone offset: UTC-4 for EDT, UTC-5 for EST
 # The bot auto-detects based on date, but you can override here
-TIMEZONE_OVERRIDE = None  # Set to -4 or -5 to force
+TIMEZONE_OVERRIDE = -4  # Set to -4 or -5 to force
 
 # Performance thresholds
 NUTRA_ADJ_AR_THRESHOLD = 60.0  # Bold if below this
