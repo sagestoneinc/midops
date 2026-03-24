@@ -19,7 +19,7 @@ USE_DEFAULT_CREDENTIALS = False
 
 # BigQuery dataset
 BQ_PROJECT = "bigquery-470313"
-BQ_DATASET = "your-dataset-name"
+BQ_DATASET = "ai_analysis_data"
 
 # ============================================================
 # Report Defaults
