@@ -18,12 +18,16 @@
 # ============================================================
 
 import os
+from dotenv import load_dotenv
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Security
 from fastapi.security.api_key import APIKeyHeader
 from google.cloud import bigquery
 from pydantic import BaseModel
+
+# Load .env file if present
+load_dotenv()
 
 # ── Configuration (set via environment variables or .env) ──────────────────
 BQ_PROJECT = os.environ.get("BQ_PROJECT", "bigquery-470313")
